@@ -1,0 +1,10 @@
+config:
+  enable_logs: True
+  sync_time: 30 # x seconds
+  logs_file: ./history.logs
+  database_file: ./db.json
+feeds:
+  - name: Adala
+    url: https://adala-news.fr/feed/
+  - name: Journal Du Japon
+    url: https://feeds.feedburner.com/journaldujapon/gOqY/
